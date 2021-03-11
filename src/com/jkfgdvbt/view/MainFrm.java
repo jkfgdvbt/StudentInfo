@@ -48,7 +48,7 @@ public class MainFrm extends JFrame {
 		this.userObject = userObject;
 		setTitle("学生信息管理系统");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1024, 768);
+		setBounds(100, 100, 1280, 960);
 		
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);

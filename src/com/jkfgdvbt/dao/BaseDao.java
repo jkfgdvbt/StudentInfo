@@ -16,7 +16,7 @@ import com.jkfgdvbt.util.DbUtil;
  */
 
 public class BaseDao {
-	public Connection con = new DbUtil().getCon();
+	protected Connection con = new DbUtil().getCon();
 	public void closeDao() {
 		try {
 			con.close();
