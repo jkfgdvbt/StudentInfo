@@ -2,7 +2,6 @@ package com.jkfgdvbt.model;
 
 /**
  * 基础表
- * 父类
  * 
  * StudentInfo
  * @author jkfgdvbt

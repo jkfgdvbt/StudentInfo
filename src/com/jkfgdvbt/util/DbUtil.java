@@ -19,17 +19,10 @@ public class DbUtil {
 	private String jdbcName = "com.mysql.jdbc.Driver"; //驱动名称
 	
 	/**
-	 * 
 	 * 获取数据库连接
-	 * @return
+	 * 
 	 */
 	
-	/*
-	 * 
-	 * @return
-	 * @throws Exception
-	 * 
-	 */
 	public Connection getCon() {// ctrl+shift+o 导入包 java.
 		try {
 			Class.forName(jdbcName);
@@ -46,11 +39,8 @@ public class DbUtil {
 		return con;
 	}
 	
-	/*
+	/**
 	 * 关闭数据库连接
-	 * @param con
-	 * @throws Exception
-	 * 
 	 * 
 	 */
 	 public void closeCon(Connection con) throws Exception {
